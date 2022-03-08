@@ -46,9 +46,9 @@ Hcloop_sub = subs(Hcloop) % sub parameter values into Hcloop
 % specify locations of the target poles,
 % choose # based on order of Htot denominator
 % e.g., want some oscillations, want fast decay, etc. 
-p1 = -1 + 1*pi*i
-p2 = -1 - 1*pi*i
-p3 = -8
+p1 = -10 + 1*pi*i
+p2 = -10 - 1*pi*i
+ p3 = -8
 
 % target characteristic polynomial
 % if motor model (TF) is added, order of polynomial will increases
